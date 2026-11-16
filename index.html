@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>BI Dashboard Builder</title>
+<title>LawhaBI</title>
 <style>
   :root { --ink:#16202b; --ink2:#51606f; --line:#d9dfe6; --bg:#f3f5f8; --card:#fff; --accent:#1f5fae; --navy:#14263b; }
   * { box-sizing:border-box; }
@@ -25,10 +25,10 @@
 </style>
 </head>
 <body>
-<div class="cbox" id="box"><h1>BI Dashboard Builder</h1><p class="csub">One moment…</p></div>
+<div class="cbox" id="box"><h1>LawhaBI</h1><p class="csub">One moment…</p></div>
 <noscript><p style="text-align:center">This tool needs JavaScript.</p></noscript>
 <script>
-// The public sign-in page of the BI Dashboard Builder web edition. It holds no rule and no text of the tool: after a sign-in by
+// The public sign-in page of the LawhaBI web edition. It holds no rule and no text of the tool: after a sign-in by
 // an approved account it asks the server for the tool and puts it in place of itself. The session it keeps in the browser is the
 // one the tool then uses.
 (function () {
@@ -71,7 +71,7 @@
     '<li><b>During the beta:</b> use fictional or approved client information only. The service is free and comes without guarantee; export your projects to a file regularly.</li>' +
     '<li><b>The tool belongs to its author.</b> It is for your work in the company; do not copy it or pass it on.</li></ul></div>';
   function draw() {
-    var v = S.view, msg = S.msg ? '<p class="cmsg' + (S.good ? ' ok' : '') + '" role="alert">' + esc(S.msg) + '</p>' : '', dis = S.busy ? ' disabled' : '', h = '<h1>BI Dashboard Builder</h1>';
+    var v = S.view, msg = S.msg ? '<p class="cmsg' + (S.good ? ' ok' : '') + '" role="alert">' + esc(S.msg) + '</p>' : '', dis = S.busy ? ' disabled' : '', h = '<h1>LawhaBI</h1>';
     if (v === 'signin' || v === 'signup') { var up = v === 'signup';
       h = '<form id="f" data-kind="' + v + '" novalidate>' + h + '<p class="csub">' + (up ? 'Create your account' : 'Sign in to your projects') + '</p>' + msg +
         (up ? '<label>Your name<input type="text" id="cName" autocomplete="name" maxlength="120" value="' + esc(S.name) + '"></label>' : '') +
